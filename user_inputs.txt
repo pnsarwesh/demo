@@ -1,5 +1,0 @@
-Input 1: vehicle
-Input 2: speed
-Input 3: accelerate
-Input 4: function
-Input 5: not in function
