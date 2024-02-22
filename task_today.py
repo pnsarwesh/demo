@@ -5,11 +5,11 @@ import subprocess
 import os
 
 def save_to_file():
-    dem01351 = [entry1.get(), entry2.get(), entry3.get(), entry4.get(), entry5.get()]
-    with open("dem01351.txt", "w") as file:
-        for user_input in dem01351:
+    demo1351 = [entry1.get(), entry2.get(), entry3.get(), entry4.get(), entry5.get()]
+    with open("demo1351.txt", "w") as file:
+        for user_input in demo1351:
             file.write(user_input + "\n")
-    label_result.config(text="Data saved to dem01351.txt")
+    label_result.config(text="Data saved to demo1351.txt")
     upload_to_github()
     
 def upload_to_github():
