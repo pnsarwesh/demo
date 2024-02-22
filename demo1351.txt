@@ -1,5 +1,5 @@
+vehicle
 full function
 not in full function
-speed is less
-speed is more
+speed 
 acceleration

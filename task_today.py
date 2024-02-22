@@ -24,6 +24,7 @@ def upload_to_github():
 # GUI setup
 root = tk.Tk()
 root.title("User Input Program")
+root.geometry("400x500")
 
 label = tk.Label(root, text="Enter your data:")
 label.pack(pady=10)
