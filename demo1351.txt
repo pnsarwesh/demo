@@ -1,6 +1,5 @@
-vehicle
+vehcile
 full function
-not in full function
-brakes applied
-acceleration
-brake is less than 25 bars
+not in full funtion
+brakes
+speed
