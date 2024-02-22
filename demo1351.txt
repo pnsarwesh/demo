@@ -3,3 +3,4 @@ full function
 not in full funtion
 brakes
 speed
+brake is less than 25 bars
