@@ -1,5 +1,5 @@
-vehicle is in full function
-vehicle is not in full function
-brakes
+vehicle
+brake
 speed
-acceleration
+full function
+not in full function

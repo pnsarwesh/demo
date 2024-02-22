@@ -1,37 +1,3 @@
-'''
-import tkinter as tk
-from tkinter import messagebox
-import subprocess
-
-def save_to_file():
-    user_input = entry.get()
-    if user_input:
-        with open("user_input.txt", "w") as file:
-            file.write(user_input)
-            messagebox.showinfo("Success", "Data saved to user_input.txt")
-            upload_to_github()
-
-def upload_to_github():
-    subprocess.run(["git", "add", "."])
-    subprocess.run(["git","commit", "-m", "latest Commit"])
-    subprocess.run(["git","push"])
-
-# GUI setup
-root = tk.Tk()
-root.title("User Input Program")
-
-label = tk.Label(root, text="Enter your data:")
-label.pack(pady=10)
-
-entry = tk.Entry(root, width=30)
-entry.pack(pady=10)
-
-save_button = tk.Button(root, text="Save to File", command=save_to_file)
-save_button.pack(pady=10)
-
-root.mainloop()
-
-'''
 
 import tkinter as tk
 from tkinter import messagebox
@@ -48,7 +14,7 @@ def save_to_file():
     
 def upload_to_github():
     repo_path = "https://github.com/pnsarwesh/demo"
-    text_file_path = "D:\demo_git\demo\demo1351"
+    text_file_path = "D:\demo_git\demo\demo1351.txt"
     os.chdir("D:\demo_git\demo")
     subprocess.run(["git", "add", "."])
     subprocess.run(["git","commit", "-m", "latest Commit"])
