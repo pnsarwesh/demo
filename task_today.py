@@ -13,8 +13,8 @@ def save_to_file():
     upload_to_github()
     
 def upload_to_github():
-    repo_path = "https://github.com/pnsarwesh/demo"
-    text_file_path = "D:\demo_git\demo\demo1351.txt"
+    #repo_path = "https://github.com/pnsarwesh/demo"
+    #text_file_path = "D:\demo_git\demo\demo1351.txt"
     os.chdir("D:\demo_git\demo")
     subprocess.run(["git", "add", "."])
     subprocess.run(["git","commit", "-m", "latest Commit"])
